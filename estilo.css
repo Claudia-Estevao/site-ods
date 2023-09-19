@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;1,100&family=Chivo:ital,wght@0,100;0,200;1,100;1,200&family=Noto+Sans+JP:wght@100;200&family=Signika:wght@300&display=swap');
+html, body{
+    margin: 0px;
+    background-color:#bbf9fdf5;
+}
+header{
+    background-color:#1673b1;
+    color: #ffffff;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+#menu{
+    float: right;
+    margin-right: 10%;
+    list-style: none;
+    margin-top: 0px;
+    font-family: 'Chivo', sans-serif;
+}
+
+li{
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover{
+    background-color: #bbf9fdf5;
+}
+#imagem_fundo{
+    background: url("imagens/fundo14.avif");
+    height:100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+}
+#titulo{
+    color: #390a91;
+    padding-top: 15%;
+    font-size: 40px;
+}
+#subtitulo{
+    color: #390a91;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 3px solid #2d0b6d;
+}
+#acao{
+    color:#390a91;
+    border: 1px #2d0b6d solid;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Chivo', sans-serif;
+}
+.icone{
+    width: 500px;
+    font-family: 'Chivo', sans-serif;
+}
+#section{
+    padding: 20px;
+    float: left;
+}
+
+.destaque{
+    background-color:#bbf9fdf5;
+}
+
+#ods{
+    padding: 20px;
+    font-family: 'Chivo', sans-serif;
+}
+
+#onu{
+    padding: 5px;
+    font-family: 'Chivo', sans-serif;
+   
+}
+
+#sobre{
+    padding: 20px;
+    font-family: 'Chivo', sans-serif;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    padding-bottom: 5%;
+    font-family: 'Chivo', sans-serif;
+}
+
+.justificado{
+    text-align:justify;
+    font-family: 'Chivo', sans-serif;
+}
+
+.centralizado{
+    text-align: center;
+    font-family: 'Chivo', sans-serif;
+}
+
+.coluna1{
+    float: right;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    font-family: 'Chivo', sans-serif;
+}
+
+.coluna2{
+    float: right;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    font-family: 'Chivo', sans-serif;
+}
+
+.coluna3{
+    float: center;
+    padding: 0 30%;
+    position:relative;
+    width: 40%;
+    font-family: 'Chivo', sans-serif;
+}
+
+.coluna4{
+    float: center;
+    padding: 0 30%;
+    position:relative;
+    width: 40%;
+    font-family: 'Chivo', sans-serif;
+}
+
+.coluna5{
+    float: center;
+    padding: 0 30%;
+    position:relative;
+    width: 40%;
+    font-family: 'Chivo', sans-serif;
+}
+
+.coluna6{
+    float: center;
+    padding: 0 30%;
+    position:relative;
+    width: 40%;
+    font-family: 'Chivo', sans-serif;
+}
+
+.colunadois{
+    float: center ;
+    padding: 0 30%;
+    position:relative;
+    width: 30%;
+    font-family: 'Chivo', sans-serif;
+}
+
+#sobre{
+    width: 100%;
+    font-family: 'Chivo', sans-serif;
+  
+}
+
+#mais{
+    color: #000000; 
+    border: 1px  #000000 solid;
+    padding: 3px 8px 3px 8px;
+    font-family: 'Chivo', sans-serif;
+}
+
+#footer{
+    background-color:#FEFA4B;
+    float: center;
+    width: 100%;
+    height: 200px;
+    font-family: 'Chivo', sans-serif;
+}
+
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Chivo', sans-serif;
+}
+
+.coluna-50 {
+     width: 50%;
+     font-family: 'Chivo', sans-serif;
+}
+
+@media all and (max-width: 768px) {
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .coluna1, .coluna2, .coluna3, .coluna4, .coluna5, .coluna6 {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    } 
+    #logodiv{
+        width: 100%;
+        position: relative;  
+    } 
+    #logo{
+        margin-left: 0;
+        transform: translatex(-50%);
+    }  
+}
+
+a:link{
+    text-decoration: none;
+    color: #f7e81c;
+}
