@@ -192,6 +192,17 @@ li:hover{
      font-family: 'Chivo', sans-serif;
 }
 
+#sobre{
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    align-items: center;
+}
+
+#sobre img{
+    width: 80%;
+}
+
 @media all and (max-width: 768px) {
     #menu{
         visibility: hidden;
