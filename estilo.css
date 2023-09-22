@@ -26,7 +26,7 @@ header{
 }
 
 li{
-    float: left;
+    float:left;
     padding: 20 10 20 10;
 }
 li:hover{
