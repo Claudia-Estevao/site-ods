@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;1,100&family=Chivo:ital,wght@0,100;0,200;1,100;1,200&family=Noto+Sans+JP:wght@100;200&family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Libre+Baskerville:wght@400;700&family=Marcellus&family=Oregano&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500;600&family=Libre+Baskerville:wght@400;700&family=Marcellus&family=Oregano&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500;600&family=Libre+Baskerville:wght@400;700&family=Lobster+Two&family=Marcellus&family=Oregano&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500;600&family=Libre+Baskerville:wght@400;700&family=Lobster+Two&family=Marcellus&family=Oregano&family=Poppins:wght@300;400&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500;600&family=Libre+Baskerville:wght@400;700&family=Lobster+Two:ital@0;1&family=Marcellus&family=Oregano&family=Oswald:wght@300;400&family=Poppins:wght@300;400&family=Vidaloka&display=swap');
 html, body{
     margin: 0px;
     background-color:#bbf9fdf5;
+    font-size: 95%;
 }
 header{
     background-color:#1673b1;
@@ -10,6 +16,7 @@ header{
     width: 100%;
     position: fixed;
     z-index: 10;
+    padding-bottom: 5px;
 }
 #logo{
     width: 150px;
@@ -22,7 +29,13 @@ header{
     margin-right: 10%;
     list-style: none;
     margin-top: 0px;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Marcellus', serif;
+    color: #f5f5f4;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 li{
@@ -31,10 +44,12 @@ li{
 }
 li:hover{
     background-color: #bbf9fdf5;
+    border-radius: 70%;
+    
 }
 #imagem_fundo{
     background: url("imagens/fundo14.avif");
-    height:100%;
+    height:70%;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-size: cover;
@@ -43,171 +58,79 @@ li:hover{
     color: #390a91;
     padding-top: 15%;
     font-size: 40px;
+    font-family: 'Marcellus', serif;
 }
 #subtitulo{
     color: #390a91;
     padding-left: 30%;
     padding-right: 30%;
     padding-top: 3px solid #2d0b6d;
-}
-#acao{
-    color:#390a91;
-    border: 1px #2d0b6d solid;
-    padding: 10px 20px 10px 20px;
-    font-family: 'Chivo', sans-serif;
-}
-.icone{
-    width: 500px;
-    font-family: 'Chivo', sans-serif;
-}
-#section{
-    padding: 20px;
-    float: left;
-}
-
-.destaque{
-    background-color:#bbf9fdf5;
-}
-
-#ods{
-    padding: 20px;
-    font-family: 'Chivo', sans-serif;
-}
-
-#onu{
-    padding: 5px;
-    font-family: 'Chivo', sans-serif;
-   
-}
-
-#sobre{
-    padding: 20px;
-    font-family: 'Chivo', sans-serif;
-}
-
-.coluna{
-    float: left;
-    padding: 0 5%;
-    position: relative;
-    width: 40%;
-    padding-bottom: 5%;
-    font-family: 'Chivo', sans-serif;
-}
-
-.justificado{
-    text-align:justify;
-    font-family: 'Chivo', sans-serif;
-}
-
-.centralizado{
-    text-align: center;
-    font-family: 'Chivo', sans-serif;
-}
-
-.coluna1{
-    float: right;
-    padding: 0 5%;
-    position: relative;
-    width: 40%;
-    font-family: 'Chivo', sans-serif;
-}
-
-.coluna2{
-    float: right;
-    padding: 0 5%;
-    position: relative;
-    width: 40%;
-    font-family: 'Chivo', sans-serif;
-}
-
-.coluna3{
-    float: center;
-    padding: 0 30%;
-    position:relative;
-    width: 40%;
-    font-family: 'Chivo', sans-serif;
-}
-
-.coluna4{
-    float: center;
-    padding: 0 30%;
-    position:relative;
-    width: 40%;
-    font-family: 'Chivo', sans-serif;
-}
-
-.coluna5{
-    float: center;
-    padding: 0 30%;
-    position:relative;
-    width: 40%;
-    font-family: 'Chivo', sans-serif;
-}
-
-.coluna6{
-    float: center;
-    padding: 0 30%;
-    position:relative;
-    width: 40%;
-    font-family: 'Chivo', sans-serif;
-}
-
-.colunadois{
-    float: center ;
-    padding: 0 30%;
-    position:relative;
-    width: 30%;
-    font-family: 'Chivo', sans-serif;
-}
-
-#sobre{
-    width: 100%;
-    font-family: 'Chivo', sans-serif;
-  
-}
-
-#mais{
-    color: #000000; 
-    border: 1px  #000000 solid;
-    padding: 3px 8px 3px 8px;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Marcellus', serif;
 }
 
 #footer{
-    background-color:#FEFA4B;
-    float: center;
-    width: 100%;
-    height: 200px;
+    column-count: 2;
+    column-gap: 3rem;
     font-family: 'Chivo', sans-serif;
+    text-align: justify;
+    box-shadow: 2px 2px 2px rgba(232,202,179);
+}
+
+.container{
+   display: flex;
+}
+
+.texto{
+    color: #060e5a;
+    font-family: 'Chivo', sans-serif;
+    flex: 5;
+    padding: 50px;
+    border-left: 30%;
+    text-align: justify;
+    
+}
+
+.texto1{
+    column-count: 3;
+    column-gap: 3rem;
+    column-rule: 5px dashed #1673b1;
+    
+}
+
+.midia{
+    flex: 2;
+    padding: 50px;
+    border-width: 30%;
+    text-align: center
+}
+
+.inicio{
+    background-color:#14bdbd;
+    padding: 0.1rem;
+    color: #060e5a;
+    column-span: all;
+    font-family: 'Marcellus', serif;
 }
 
 .footer{
-    display: flex;
-    flex-flow: row wrap;
     font-family: 'Chivo', sans-serif;
+    background-color:#14bdbd;
+    column-count: 2;
+    column-gap: 3rem;
+    box-shadow: 2px 2px 2px rgb(6, 45, 218);
 }
 
-.coluna-50 {
-     width: 50%;
-     font-family: 'Chivo', sans-serif;
-}
-
-#sobre{
-    display: flex;
-    gap: 50px;
-    padding: 10px;
-    align-items: center;
-}
-
-#sobre img{
-    width: 80%;
-}
 
 @media all and (max-width: 768px) {
     #menu{
         visibility: hidden;
     }
-    .coluna, .coluna1, .coluna2, .coluna3, .coluna4, .coluna5, .coluna6 {
+
+    #imagem_fundo{
+        background-image: none;
+    }
+
+    .texto, .midia, .footer, .container {
         display: block;
         width: 80%;
         padding: 0;
@@ -226,5 +149,5 @@ li:hover{
 
 a:link{
     text-decoration: none;
-    color: #f7e81c;
+    color: #f5f5f4;
 }
